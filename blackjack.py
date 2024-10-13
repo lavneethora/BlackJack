@@ -1,4 +1,3 @@
-from art import blackjack_logo
 import random
 
 card_deck = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"]
@@ -7,6 +6,17 @@ player_card = []
 computer_card = []
 player_score = 0
 computer_score = 0
+
+blackjack_logo = """
+.------.            _     _            _    _            _    
+|A_  _ |.          | |   | |          | |  (_)          | |   
+|( \/ ).-----.     | |__ | | __ _  ___| | ___  __ _  ___| | __
+| \  /|K /\  |     | '_ \| |/ _` |/ __| |/ / |/ _` |/ __| |/ /
+|  \/ | /  \ |     | |_) | | (_| | (__|   <| | (_| | (__|   < 
+`-----| \  / |     |_.__/|_|\__,_|\___|_|\_\ |\__,_|\___|_|\_\\
+      |  \/ K|                            _/ |                
+      `------'                           |__/           
+"""  
 
 print(blackjack_logo)
 print("HOUSE RULES\n")
